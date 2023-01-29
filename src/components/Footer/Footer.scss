@@ -1,0 +1,88 @@
+.footerContainer{
+    // margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(26, 8, 38);
+
+    .box{
+        width: 65.5px;
+        height: 58px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+        padding: 5px;
+        cursor: pointer;
+        margin:0.6rem;
+        transition: all 0.4s;
+
+        .icon{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            border-radius: 10px;
+            margin-left: 10px;
+            transition: all 0.4s;
+
+            .iconBars{
+                font-size: 1.5rem;
+            }
+        }
+        .icon:hover{
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.26);
+            color: rgb(59,59,59);
+        }
+        .instagram{
+            background: #c32aa3;
+        }
+        .facebook{
+            background: #1877f2;
+        }
+        .twitter{
+            background: #d1a1f2;
+        }
+        .whatsap{
+            background: #25d366;
+        }
+        .youtube{
+            background: #c5d881;
+        }
+        
+    }
+    .box:hover{
+        width: 160px;
+        background-color: #c32aa3;
+        border-radius: 10px;
+        color: white;
+        box-shadow: 0 0 50px #b315917c;
+    }
+    .box:nth-child(2):hover{
+        background: #1877f2;
+        box-shadow: 0 0 50px #1876f285;
+    }
+    .box:nth-child(3):hover{
+        background: #ada1f2;
+        box-shadow: 0 0 50px #1da0f280;
+    }
+    .box:nth-child(4):hover{
+
+        background: #25d366;
+        box-shadow: 0 0 50px #25d3657e;
+    }
+    .box:nth-child(5):hover{
+
+        background: #c5d881;
+        box-shadow: 0 0 50px #c5d881;;
+    }
+    p{
+        transform: translate(60px);
+    }
+}
